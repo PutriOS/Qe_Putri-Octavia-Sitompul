@@ -56,6 +56,8 @@ PENGUJIAN REGRESI Jenis pengujian perangkat lunak untuk mengonfirmasi bahwa fitu
 
 **TASK 1**
 
+![Task1 section4](https://user-images.githubusercontent.com/94749506/155451615-5bfbd2e1-b0eb-45ac-afb0-917697b9fcf5.PNG)
+
 - Sebuah program dikatakan “baik” jika mutation score yang didapatkan bernilai 100%. Sedangkan pada mutation score yang didapatkan diatas pada com.hascode.tutorial.entity 67%, dan com.hashcode.tutorial.service 75%. Agar mendapatkan mutasi score senilai 100%, maka langkah yang perlu kita lakukan adalah menambahkan test case untuk program tersebut. Jika test case tersebut terhitung mendapatkan nilai yang berbeda dari expected outcome, maka mutant tersebut dinyatakan terbunuh. Setelah semua mutant terbunuh, maka akan didapatkan mutation score senilai 100%.
 
 - Line coverage merupakan jumlah baris yang dieksekusi dibagi dengan jumlah total baris. 
@@ -63,6 +65,8 @@ Hanya baris yang berisi pernyataan yang dapat dieksekusi yang dipertimbangkan, b
 
 
 **TASK 2**
+
+![Task2 section4](https://user-images.githubusercontent.com/94749506/155451663-cc830f65-3850-4266-915d-e1ca640c14a7.PNG)
 
 - Terdapat dua metode didalam kelas Calculator Service Impl yaitu metode add dan metode subtract dengan memiliki 2 parameter yang menyimpan nilai dari inputan yang akan dimasukkan. Inputan tersebut akan dilanjutkan dengan perhitungan operasi yang dilakukan pada masing – masing metode. Metode add merupakan fungsi untuk melakukan pertambahan sedangkan metode subtract merupakan fungsi untuk melakukan pengurangan. 
 
