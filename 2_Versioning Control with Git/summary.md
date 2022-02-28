@@ -1,4 +1,4 @@
-**(2) Versioning Control with Git**
+# (2) Versioning Control with Git**
 
 *resume*
 
