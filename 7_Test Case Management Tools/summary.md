@@ -38,13 +38,25 @@ kenapa kita membutuhkan Test case management tools
 
 ## Task
 
-Milestone Task
+***Task***
 
-Run Test Task
+**Milestone Task**
+
+![milestones task](https://user-images.githubusercontent.com/94749506/156501563-53692442-f7b6-4adf-9723-edfd001b80c5.PNG)
+
+**Run Test Task**
+
+![Run Test Task](https://user-images.githubusercontent.com/94749506/156501581-4b8dbd04-7121-4c48-bfeb-960f3edf7f38.PNG)
 
 
-Project
+***Project***
 
-Milestone Project
+**Milestone Project**
 
-Run test Project
+![milestones project](https://user-images.githubusercontent.com/94749506/156501602-1a6e74ce-1722-40e2-b611-4bd1fd654dbe.PNG)
+
+
+**Run test Project**
+
+![Run Test Project](https://user-images.githubusercontent.com/94749506/156501728-ad5d7d78-857c-4d94-9035-39a611c33e6a.PNG)
+
