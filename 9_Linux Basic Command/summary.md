@@ -1,4 +1,4 @@
-# Linux
+# Linux Basic Command
 
 ## Resume
 - Linux command adalah Ultililtas dari system operasi linux, semua tugas dasar dan lanjutan dapat dijalankan dengan command
@@ -158,7 +158,7 @@ Nama direktori
 
 ***1. Top*** 
 
-TOP akan menampilkan layar penuh informasi tentang proses yang berjalan pada sistem, serta beberapa informasi keseluruhan tentang sistem. Ini termasuk rata-rata beban, jumlah proses, status CPU, informasi memori bebas, dan detail tentang proses termasuk PID, pengguna, prioritas, informasi penggunaan CPU dan memori, waktu berjalan, dan nama program.
+- TOP akan menampilkan layar penuh informasi tentang proses yang berjalan pada sistem, serta beberapa informasi keseluruhan tentang sistem. Ini termasuk rata-rata beban, jumlah proses, status CPU, informasi memori bebas, dan detail tentang proses termasuk PID, pengguna, prioritas, informasi penggunaan CPU dan memori, waktu berjalan, dan nama program.
 top itu akan menampilkan proses aktif lengkap, cpu dan memori informasi.
 
 ***2. Clear*** 
@@ -203,9 +203,40 @@ file dengan awalan . merupakan file tersembunyi ssehingga tidak dapat dilihat de
 
 ***1. Chmod*** 
 
-chmod mengubah akses permission suatu folder ataupun file
+- chmod mengubah akses permission suatu folder ataupun file
 
 ***2. Chown***
 
-chown jika pengen web server yang bisa akses www-data.www-data
-tidak ada user, grup tidak ada nobody.nogroup agar semua orang bisa mengakses.
+- chown jika pengen web server yang bisa akses www-data.www-data
+- tidak ada user, grup tidak ada nobody.nogroup agar semua orang bisa mengakses.
+
+
+**TASK 2**
+
+*Shell Script*
+
+*Program 1*
+
+- Membuat file dengan nano namafile dan mengeksekusi file dengan **./nama_file** atau dengan permission **chmod +x namaa_file** untuk mengeksekusi file.
+
+*Program 2*
+
+- Menggunakan fungsi **read** untuk membaca inputan dari keyboard
+
+*Program 3*
+
+- Menggunakan fungsi **parameter $**
+
+*Program 4*
+
+- Membuat program perhitungan 
+- Adanya fungsi **let** untuk melakukan aritmatika pada variabel shell
+
+*Program 5*
+
+- Membuat program perbandingan dengan menggunakan **if** dan **-ge** artinya Lebih besar dari atau sama dengan.
+
+
+*Program 6*
+
+- Membuat program perulangan menggunakan **for**.
