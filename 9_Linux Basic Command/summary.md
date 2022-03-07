@@ -79,13 +79,17 @@ Contoh, perintah find /home/ -name notes.txt akan mencari file bernama notes.txt
 
 ***2. Chown*** : Pada sistem operasi Linux, semua file dimiliki oleh user khusus. Sebagai perintah dasar pada Linux, chown memungkinkan Anda untuk mengubah atau mentransfer kepemilikan file ke username khusus atau yang spesifik. Misalnya, chown linuxuser2 file.ext akan menentukan linuxuser2 sebagai pemilik file.ext.
 
-Permission dari sebuah direktori
-Jumlah file yang ada didalam direktori tersebut
-User dari direktori
-Dimiliki oleh grup wheel
-64 kapsitas dari sebuah direktori
-Tanggal dibuat direktori ini
-Nama direktori
+![terminal](https://user-images.githubusercontent.com/94749506/156989773-878c9076-e558-417d-a6a4-5ef7686dbec3.PNG)
+
+- Permission dari sebuah direktori
+- Jumlah file yang ada didalam direktori tersebut
+- User dari direktori
+- Dimiliki oleh grup wheel
+- 64 kapsitas dari sebuah direktori
+- Tanggal dibuat direktori ini
+- Nama direktori
+
+![dwx](https://user-images.githubusercontent.com/94749506/156989839-7d415a49-c757-433d-86f2-1b667d38b1d1.PNG)
 
 *Maksud dri drwx :*
 - tanda d merupakan tipe file yang berkategori direktori
