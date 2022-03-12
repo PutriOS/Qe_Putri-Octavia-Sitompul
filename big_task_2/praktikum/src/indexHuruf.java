@@ -13,7 +13,7 @@ public class indexHuruf {
         Scanner sc = new Scanner(System.in);
         String str;
         System.out.print("Input     : ");
-        str=sc.nextLine();
+        str=sc.nextLine().toUpperCase();
         int i,j,k,l;
 
         for (i=0;i<5;i++){
@@ -34,9 +34,7 @@ public class indexHuruf {
                         }
                     }
                 }
-
             }
-            System.out.println("\n");
         }
     }
 }
