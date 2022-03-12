@@ -29,7 +29,6 @@ public class indexHuruf {
                             if(str.equals(myChar[k][l])){
                                 k +=1;
                                 l +=1;
-                                System.out.print("Output    : "+l+" "+k);
                             }
                         }
                     }
