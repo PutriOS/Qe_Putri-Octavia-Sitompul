@@ -1,28 +1,32 @@
 public class Draw_XYZ {
-    private static void DrawXYZ(int n) {
-        int counter = 1;
-        char s[] = { 'Y', 'Z', 'X' };
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < 5; j++) {
-                if (counter % 3 == 0) {
-                    System.out.print(s[2]);
-                } else if (counter % 2 == 0) {
-                    System.out.print(s[1]);
-                } else if (counter % 2 != 0) {
-                    System.out.print(s[0]);
+    private static void drawXYZ(int n){
+        String cetak = "";
+        int hasil = 0;
+        for (int o = 1; o <= n; o++){
+            for (int p = 1; p <= n; p++){
+                hasil = hasil+1;
+                if (hasil %3 == 0){
+                    cetak += " " + "X";
+                    /*System.out.println("X");*/
                 }
-
-                System.out.print(" ");
-                counter++;
-            }
-            System.out.println(" ");
+                else if (hasil %2 == 0){
+                    cetak += " " + "Z";
+                    /*System.out.println("Z");*/
+                }
+                else{
+                    cetak += " " + "Y";
+                    /*System.out.println("Y");*/
+                }
+            }cetak += "\n";
         }
+        System.out.println(cetak);
     }
 
     public static void main(String[] args) {
-        DrawXYZ(3);
-        DrawXYZ(5);
-        DrawXYZ(1);
+        drawXYZ(3);
+        System.out.println("=====================");
+        drawXYZ(5);
+        System.out.println("=====================");
+        drawXYZ(1);
     }
 }
