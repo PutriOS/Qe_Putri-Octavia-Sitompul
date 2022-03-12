@@ -22,16 +22,8 @@ public class indexHuruf {
                     j +=1;
                     i +=1;
                     System.out.print("Output    : "+j+" "+i);
-                }else if(str.equals("K")){
+                }else if (str.equals("K")){
                     str = "C";
-                    for (k=0;k<5;k++){
-                        for (l=0;l<5;l++){
-                            if(str.equals(myChar[k][l])){
-                                k +=1;
-                                l +=1;
-                            }
-                        }
-                    }
                 }
             }
         }
