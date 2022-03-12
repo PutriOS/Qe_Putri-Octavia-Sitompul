@@ -14,7 +14,7 @@ class Mobil extends Hewan {
             System.out.println("Muatan berhasil ditambah");
         } else {
             System.out.println("Hewan " + nama + " dengan berat " + berat
-                    + " kg, telah mencapai batas maksimum " + kapasitas + " kg");
+                    + " kg, telah mencapai batas maksimum " + kapasitas + " kg" +" dengan jenis angkutan " + muatan);
         }
     }
 }
@@ -22,6 +22,6 @@ class Mobil extends Hewan {
 public class Main {
     public static void main(String[] args) {
         Mobil mobil = new Mobil();
-        mobil.tambahMuatan(1001,1000,"Sapi","Truk");
+        mobil.tambahMuatan(1001,1000,"Kerbau","Mobil PickUp");
     }
 }
