@@ -10,11 +10,14 @@ public class problem6 {
 
         // Compute sum of first window of size k
         int res = 0;
-        for (int i=0; i<k; i++)
-            res += arr[i];
+        for (int i=0; i<k; i++) // k = 3
+            res += arr[i]; //0 1 2
+
+        0 0 + 1 = 1
+            1 1+2 = 3
 
         int curr_sum = res;
-        for (int i=k; i<n; i++)
+        for (int i=k; i<n; i++)// k = 3
         {
             curr_sum += arr[i] - arr[i-k];
             res = Math.max(res, curr_sum);
