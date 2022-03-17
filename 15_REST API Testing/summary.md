@@ -161,17 +161,17 @@
 • Mengurangi resiko
 
 
-
-
-
-
-
-
-
-
 ## TASK
 
 *Link Spreadsheed*
 
 (https://docs.google.com/spreadsheets/d/1P_hMUtLS-QDv_3MHHhJ1yCO7l2nWRHUnvzX8CloaPRg/edit?usp=sharing)
+
+**PET**
+
+![Pet](https://user-images.githubusercontent.com/94749506/158751275-87f69965-ebd8-4121-bbf4-a094bb58de51.PNG)
+
+**Store**
+
+![Store](https://user-images.githubusercontent.com/94749506/158751314-c34fc7d9-e9c9-4993-a9bc-74356845e9dc.PNG)
 
