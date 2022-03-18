@@ -91,6 +91,8 @@ Pemilihan tool selection sangat bergantung pada teknologi yang digunakan untuk m
 
 **Task 1**
 
+![Task1](https://user-images.githubusercontent.com/94749506/158949146-cd943aeb-b145-4109-9192-0b22989dd046.PNG)
+
 - Pada Serenity memiliki daftar jenis persyaratan yang akan digunakan saat membaca persyaratan dari sistem file dan saat mengatur laporan. Struktur standar daftar jenis persyaratan menggunakan tiga level: kemampuan, fitur, dan cerita.
 
 - Pada gambar tersebut merupakan laporan hasil pengujian dalam format HTML. Pengujian file Sample_REST_API_Testing.feature memiliki fitur sebagai melakukan operasi CRUD. Pada gambar terdapat method Create, Read, Update, Delete yang memiliki wakktu respon yang berbeda beda dalam menjalankan method tersebut. 
@@ -100,6 +102,8 @@ Pemilihan tool selection sangat bergantung pada teknologi yang digunakan untuk m
 - Misalnya ketika melakukan testing API, kita ingin tahu persis berapa lama waktu yang diperlukan untuk menjalankannya dan mengembalikan data dalam JSON.
 
 **Task 2**
+
+![Task2](https://user-images.githubusercontent.com/94749506/158949111-6020c627-2f47-4972-8ade-0c7fe1ec5089.PNG)
 
 - Test Count : Halaman ringkasan dari semua statistik dan info umum, berdasarkan jumlah skenario yang digunakan.
 
