@@ -93,9 +93,9 @@ Pemilihan tool selection sangat bergantung pada teknologi yang digunakan untuk m
 
 ![Task1](https://user-images.githubusercontent.com/94749506/158949146-cd943aeb-b145-4109-9192-0b22989dd046.PNG)
 
-- Pada Serenity memiliki daftar jenis persyaratan yang akan digunakan saat membaca persyaratan dari sistem file dan saat mengatur laporan. Struktur standar daftar jenis persyaratan menggunakan tiga level: kemampuan, fitur, dan cerita.
-
 - Pada gambar tersebut merupakan laporan hasil pengujian dalam format HTML. Pengujian file Sample_REST_API_Testing.feature memiliki fitur sebagai melakukan operasi CRUD. Pada gambar terdapat method Create, Read, Update, Delete yang memiliki wakktu respon yang berbeda beda dalam menjalankan method tersebut. 
+
+- Pada Method Delete keccepetan respon 880 mms, Method Get keccepetan respon 212 mms, Method Post keccepetan respon 786 mms, Method Update keccepetan respon 764 mms.
   
 - Response Time Testing mengukur waktu yang dibutuhkan untuk sistem untuk menanggapi permintaan yang lain. Respon time adalah waktu yang dibutuhkan sistem untuk mencapai input tertentu sampai proses selesai. 
   
@@ -105,7 +105,9 @@ Pemilihan tool selection sangat bergantung pada teknologi yang digunakan untuk m
 
 ![Task2](https://user-images.githubusercontent.com/94749506/158949111-6020c627-2f47-4972-8ade-0c7fe1ec5089.PNG)
 
-- Test Count : Halaman ringkasan dari semua statistik dan info umum, berdasarkan jumlah skenario yang digunakan.
+- Pada Serenity memiliki daftar jenis persyaratan yang akan digunakan saat membaca persyaratan dari sistem file dan saat mengatur laporan. Struktur standar daftar jenis persyaratan menggunakan tiga level: capabilities, features and stories.
+
+- Test Count : Halaman ringkasan dari semua statistik dan info umum, berdasarkan jumlah skenario yang digunakan. 
 
 - Warna merah menandakan Failed = Jumlah semua skenario yang gagal. Warna biru muda menandakan Pending = Jumlah semua skenario yang ditandai sebagai tertunda. Warna hijau menandakan Passed = Jumlah semua skenario yang dilewati.
 
