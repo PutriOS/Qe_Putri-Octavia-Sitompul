@@ -2,7 +2,7 @@
 
 - Dalam Pengujian Manual, kasus uji dijalankan oleh penguji dan perangkat lunak manusia Objektif: Eksplorasi dan Pengamatan manusia.
 
-**Manual Testing**
+## Manual Testing
 
 - Manual testing adalah langkah untuk mencari cacat atau bug pada program perangkat lunak. Pada metode ini tester atau penguji memiliki peran penting sebagai pengguna akhir pengecekan semua fitur aplikasi bekerja dengan benar. 
   
@@ -49,18 +49,6 @@
 - Tidak adanya feedback mengenai UI : Tanpa adanya human element, maka kita tidak bisa melakukan pengecekan terhadap UI seperti warna, kontras, pemilihan font, dan button sizes.
 
 
-**Kelebihan Pengujian Manual**
-
-- Dapatkan umpan balik visual yang cepat dan akurat Lebih murah karena Anda tidak perlu menghabiskan anggaran untuk alat otomatisasi dan proses Saat menguji perubahan kecil, pengujian otomatisasi akan memerlukan pengkodean yang dapat memakan waktu. Meskipun Anda dapat menguji secara manual dengan cepat.
-
-**Kontra Pengujian Manual**
-
-- Itu selalu rentan terhadap kesalahan & kesalahan tidak dapat direkam, jadi tidak mungkin menggunakan kembali tes manual.
-
-**Apa itu Pengujian Otomasi?**
-
-- Pengujian Otomatisasi berarti menggunakan alat otomatisasi untuk menjalankan rangkaian kasus pengujian Anda. Objektif: efisiensi dan cakupan
-
 **Kasus Uji Mana yang Harus Diotomatiskan?**
 
 - Kasus uji yang dieksekusi berulang kali
@@ -76,7 +64,7 @@
 - Uji kasus yang persyaratannya adalah sering berubah
 
 
-### Automate Testing Process
+## Automate Testing Process
 
 **1. Test Tool Selection**
 Pemilihan tool selection sangat bergantung pada teknologi yang digunakan untuk membangun aplikasi yang sedang diuji. 
@@ -98,3 +86,27 @@ Pemilihan tool selection sangat bergantung pada teknologi yang digunakan untuk m
 - Standar penulisan : Standar harus diikuti saat menulis skrip untuk otomatisasi.
 
 - Mengukur metrik : Keberhasilan otomatisasi tidak dapat ditentukan dengan membandingkan manual upaya dengan upaya otomatisasi.
+
+## Task
+
+**Task 1**
+
+- Pada Serenity memiliki daftar jenis persyaratan yang akan digunakan saat membaca persyaratan dari sistem file dan saat mengatur laporan. Struktur standar daftar jenis persyaratan menggunakan tiga level: kemampuan, fitur, dan cerita.
+
+- Pada gambar tersebut merupakan laporan hasil pengujian dalam format HTML. Pengujian file Sample_REST_API_Testing.feature memiliki fitur sebagai melakukan operasi CRUD. Pada gambar terdapat method Create, Read, Update, Delete yang memiliki wakktu respon yang berbeda beda dalam menjalankan method tersebut. 
+  
+- Response Time Testing mengukur waktu yang dibutuhkan untuk sistem untuk menanggapi permintaan yang lain. Respon time adalah waktu yang dibutuhkan sistem untuk mencapai input tertentu sampai proses selesai. 
+  
+- Misalnya ketika melakukan testing API, kita ingin tahu persis berapa lama waktu yang diperlukan untuk menjalankannya dan mengembalikan data dalam JSON.
+
+**Task 2**
+
+- Test Count : Halaman ringkasan dari semua statistik dan info umum, berdasarkan jumlah skenario yang digunakan.
+
+- Warna merah menandakan Failed = Jumlah semua skenario yang gagal. Warna biru muda menandakan Pending = Jumlah semua skenario yang ditandai sebagai tertunda. Warna hijau menandakan Passed = Jumlah semua skenario yang dilewati.
+
+- Pada gambar dapat diketahui bahwa Petstore memiliki satu jumlah scenario yang dilakukan testing dan berhasil dilewati. sehingga presentasi keberhasilan 100%.
+
+- Search terdapat 4 scenarios yang dilankukan testing namun 3 scenario berhasil dan 1 scenario pending, sehingga presentasi keberhasilan 75%.
+
+- Shopping Cart teredapat 2 scenario yang dilakukan testing dengan 1 scenario berhasil dan 1 scenario gagal, sehingga presentasi keberhasilan 50%.
