@@ -1,4 +1,4 @@
-#(17) Behavior Driven Development (BDD)
+# (17) Behavior Driven Development (BDD)
 
 ## Resume
 
@@ -82,3 +82,24 @@
 **Test-driven development (TDD)** adalah proses pengembangan perangkat lunak yang bergantung pada pengulangan siklus pengembangan yang sangat singkat. Persyaratan untuk melakukan sebuah perubahan menjadi kasus uji yang sangat spesifik, maka software yang sedang dikembangkan diharuskan memenuhi test baru. 
 
 - Hal ini bertentangan dengan pengembangan perangkat lunak yang memungkinkan perangkat lunak untuk ditambahkan belum tentu memenuhi persyaratan. Pada proses software development ada beberapa proses yang pasti dilakukan, sehingga terbentuklah iterasi suatu langkah — langkah yang mungkin sudah lazim dilakukan.
+
+
+# TASK
+
+## TASK SS
+
+![Success login](https://user-images.githubusercontent.com/94749506/159234641-4090f0a9-044c-46d7-87a3-fc8ee00c582d.PNG)
+
+![failed login with wrong password](https://user-images.githubusercontent.com/94749506/159234649-995c7b51-a8d7-49a1-9cab-c74c4a37fdec.PNG)
+
+![Post a Document](https://user-images.githubusercontent.com/94749506/159234652-cf8d8076-e660-4daf-93f8-e25e48d7a8e8.PNG)
+
+![Post a Photo](https://user-images.githubusercontent.com/94749506/159234655-2fc06631-b79f-4a56-88f5-af63464f3f8d.PNG)
+
+![Post a vidio](https://user-images.githubusercontent.com/94749506/159234660-ecbea0f2-c6ef-40c1-9201-6d5fe7f26d6f.PNG)
+
+![search jobs](https://user-images.githubusercontent.com/94749506/159234663-d700fd40-7212-4529-bcc5-7dd60f67e4b5.PNG)
+
+![Search person](https://user-images.githubusercontent.com/94749506/159234669-6c3efaa6-e9fa-45f9-873c-e6994e6bd3aa.PNG)
+
+
