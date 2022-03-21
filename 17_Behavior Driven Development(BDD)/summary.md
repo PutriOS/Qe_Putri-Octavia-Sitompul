@@ -86,7 +86,9 @@
 
 # TASK
 
-## TASK SS
+## TASK SS 
+
+- Report Html dapat dilihat pada folder : PRAKTIKUM_BDD/target/site/serenity (https://github.com/PutriOS/Qe_Putri-Octavia-Sitompul/tree/master/17_Behavior%20Driven%20Development(BDD)/praktikum/PRAKTIKUM_BDD/target/site/serenity)
 
 ![Test Result All Test](https://user-images.githubusercontent.com/94749506/159284687-b2ffde93-1bd0-44df-a48b-65366b910b5e.PNG)
 
