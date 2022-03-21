@@ -88,6 +88,44 @@
 
 ## TASK SS
 
+![Test Result All Test](https://user-images.githubusercontent.com/94749506/159284687-b2ffde93-1bd0-44df-a48b-65366b910b5e.PNG)
 
+![Functional Covergae Details](https://user-images.githubusercontent.com/94749506/159284604-3512346a-d96c-419f-8d83-f1a10f95c2cc.PNG)
+
+
+## FEED PAGE
+
+**Post a Document**
+
+![Post a Document](https://user-images.githubusercontent.com/94749506/159284754-e05cf8d7-bbf9-4b30-98de-fe81b53419fd.PNG)
+
+**Post a Photo**
+
+![Post a Photo](https://user-images.githubusercontent.com/94749506/159284762-d509c043-3d09-440c-bafc-dfc005ea9511.PNG)
+
+**Post a vidio**
+
+![Post a vidio](https://user-images.githubusercontent.com/94749506/159284749-4af5dcd6-9a8d-464c-bc0b-5e588d994b32.PNG)
+
+**Search Person**
+
+![Search person](https://user-images.githubusercontent.com/94749506/159285260-5ca16fb2-4324-427b-b9bc-7284e21417e2.PNG)
+
+
+## JOBS PAGE
+
+**Search Jobs**
+
+![search jobs](https://user-images.githubusercontent.com/94749506/159285177-1ece943c-556c-4e55-a92b-94040affb62a.PNG)
+
+## LOGIN PAGE
+
+**Success Login**
+
+![Success login](https://user-images.githubusercontent.com/94749506/159285333-495624af-a13a-4e2b-b00e-af592094df43.PNG)
+
+**Failed Login with Wrong Password**
+
+![failed login with wrong password](https://user-images.githubusercontent.com/94749506/159285489-accbed4e-0f64-432a-99f4-e4be3b5ce9b0.PNG)
 
 
