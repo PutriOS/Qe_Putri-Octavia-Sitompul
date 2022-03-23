@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","POST - As an admin I want to create new book with valid data book","FAILURE","2022-03-23T18:03:43.0983619+07:00[Asia/Jakarta]","0.0","61.48"
+"User","POST - As an admin I want to create new book with invalid data book","FAILURE","2022-03-23T18:04:44.5804806+07:00[Asia/Jakarta]","0.0","61.15"
+"User","PUT -  As an admin I want to update data book with valid data book","FAILURE","2022-03-23T18:05:45.7460497+07:00[Asia/Jakarta]","0.0","2.63"
+"User","PUT -  As an admin I want to update data book with invalid data book","FAILURE","2022-03-23T18:05:48.3811669+07:00[Asia/Jakarta]","0.0","0.87"
+"User","Delete -  As an admin I want to delete data book with valid data","FAILURE","2022-03-23T18:05:49.2577884+07:00[Asia/Jakarta]","0.0","0.84"

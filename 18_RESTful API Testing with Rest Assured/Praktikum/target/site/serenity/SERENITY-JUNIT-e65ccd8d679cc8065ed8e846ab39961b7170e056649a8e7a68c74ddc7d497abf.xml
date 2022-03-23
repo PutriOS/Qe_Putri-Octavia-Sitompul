@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="5" name="User" skipped="0" tests="8" time="133.82" timestamp="2022-03-23 06:03:37"><testcase name="GET - As an admin I have to be able to get detail book"/><testcase name="GET - As an admin I have to be able to get All book"/><testcase name="POST - As an admin I want to create new book with valid data book"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;504&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;504&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;504&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+api.bdd@1.0-SNAPSHOT/book.PostBooks.lambda$validateTheStatusCodeNewBookIs201$0(PostBooks.java:33)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+api.bdd@1.0-SNAPSHOT/book.PostBooks.validateTheStatusCodeNewBookIs201(PostBooks.java:33)&#13;
+api.bdd@1.0-SNAPSHOT/starter.stepdefinitions.BookStepdefs.iValidateTheStatusCodeNewBookIs201(BookStepdefs.java:66)&#13;
+✽.I validate the status code new book is 201(file:///D:/BDD/Praktikum/src/test/resources/book/book.feature:20)&#13;
+</system-err></testcase><testcase name="POST - As an admin I want to create new book with invalid data book"><failure message="1 expectation failed.&#10;Expected status code &lt;401&gt; but was &lt;504&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;401&gt; but was &lt;504&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;401&gt; but was &lt;504&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+api.bdd@1.0-SNAPSHOT/book.PostBooks.lambda$validateTheStatusCodeIs401$1(PostBooks.java:56)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+api.bdd@1.0-SNAPSHOT/book.PostBooks.validateTheStatusCodeIs401(PostBooks.java:56)&#13;
+api.bdd@1.0-SNAPSHOT/starter.stepdefinitions.BookStepdefs.iValidateTheStatusCodeIs401(BookStepdefs.java:81)&#13;
+✽.I validate the status code is 401(file:///D:/BDD/Praktikum/src/test/resources/book/book.feature:26)&#13;
+</system-err></testcase><testcase name="PUT -  As an admin I want to update data book with valid data book"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+api.bdd@1.0-SNAPSHOT/book.GetBooks.lambda$validateBookHttpResponseCode200$0(GetBooks.java:34)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+api.bdd@1.0-SNAPSHOT/book.GetBooks.validateBookHttpResponseCode200(GetBooks.java:34)&#13;
+api.bdd@1.0-SNAPSHOT/starter.stepdefinitions.BookStepdefs.iValidateTheStatusCodeIs200(BookStepdefs.java:45)&#13;
+✽.I validate the status code is 200(file:///D:/BDD/Praktikum/src/test/resources/book/book.feature:31)&#13;
+</system-err></testcase><testcase name="PUT -  As an admin I want to update data book with invalid data book"><failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;400&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+api.bdd@1.0-SNAPSHOT/book.PutBooks.lambda$validateTheStatusCodeIs400$0(PutBooks.java:51)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+api.bdd@1.0-SNAPSHOT/book.PutBooks.validateTheStatusCodeIs400(PutBooks.java:51)&#13;
+api.bdd@1.0-SNAPSHOT/starter.stepdefinitions.BookStepdefs.iValidateTheStatusCodeIs400(BookStepdefs.java:106)&#13;
+✽.I validate the status code is 400(file:///D:/BDD/Praktikum/src/test/resources/book/book.feature:37)&#13;
+</system-err></testcase><testcase name="Delete -  As an admin I want to delete data book with valid data"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;401&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;401&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+api.bdd@1.0-SNAPSHOT/book.DeleteBooks.lambda$validateTheStatusCodeIs204$0(DeleteBooks.java:27)&#13;
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)&#13;
+api.bdd@1.0-SNAPSHOT/book.DeleteBooks.validateTheStatusCodeIs204(DeleteBooks.java:27)&#13;
+api.bdd@1.0-SNAPSHOT/starter.stepdefinitions.BookStepdefs.iValidateTheStatusCodeIs204(BookStepdefs.java:121)&#13;
+✽.I validate the status code is 204(file:///D:/BDD/Praktikum/src/test/resources/book/book.feature:42)&#13;
+</system-err></testcase><testcase name="Delete -  As an admin I want to delete data book with invalid data"/></testsuite>

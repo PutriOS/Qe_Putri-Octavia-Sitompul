@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","GET - As an admin I have to be able to get detail book","SUCCESS","2022-03-23T18:03:37.1471501+07:00[Asia/Jakarta]","0.0","4.93"
+"User","GET - As an admin I have to be able to get All book","SUCCESS","2022-03-23T18:03:42.096616+07:00[Asia/Jakarta]","0.0","0.97"
+"User","Delete -  As an admin I want to delete data book with invalid data","SUCCESS","2022-03-23T18:05:50.1237955+07:00[Asia/Jakarta]","0.0","0.96"
