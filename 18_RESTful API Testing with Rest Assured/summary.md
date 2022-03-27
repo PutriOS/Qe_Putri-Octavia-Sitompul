@@ -23,3 +23,18 @@ Tujuan : Memvalidasi setiap unit dari kode perangkat lunak agar dapat berjalan s
 2. Komponen Testing merupakan pengujian perangkat lunak dimana pengujian dilakukan pada setiap komponen terpisah tanpa mengintegrasikan dengan komponen lain. Salah satu black box testing yang dilakukan QA.
 3. Integration Testing adalah pengujian dari hasil penggabungan unit unit yang ada di dalam software. Integration testing sebaaiknya dilakukan bertahap jika terdapat error.
 4. UI Test (End To End)
+
+
+## Task
+
+![Test result](https://user-images.githubusercontent.com/94749506/160269796-c4b9c99e-de90-4baa-b0c1-c08c8a6af668.png)
+
+![scenarios](https://user-images.githubusercontent.com/94749506/160269801-b38ad42e-0e60-4229-a10f-37fb00d5e815.png)
+
+![create new user](https://user-images.githubusercontent.com/94749506/160269803-baf1bfaa-f27f-418d-b531-f04f8ef386de.png)
+
+![create new user with new exist account](https://user-images.githubusercontent.com/94749506/160269806-62884336-3f0c-4de1-899b-6aa71a59e347.png)
+
+![create new user with invalid password](https://user-images.githubusercontent.com/94749506/160269813-ca9b88ca-02ce-47c4-9f00-7933d2012db4.png)
+
+
