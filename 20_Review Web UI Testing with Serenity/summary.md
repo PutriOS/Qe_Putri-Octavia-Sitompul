@@ -107,3 +107,26 @@ Nama kelas harus diakhiri dengan "Langkah" untuk kemudahan perawatan
 • Itu harus mencetak semua logging di konsol dan kesalahan apa pun jika ada
 
 • Setelah uji coba, laporan akan dibuat secara otomatis dan ditempatkan secara default di jalur /target/situs/serenity
+
+
+## TASK
+
+- Login Success
+
+![login success](https://user-images.githubusercontent.com/94749506/160747202-38e53f87-bb62-493e-b7d2-c7ea55ac2888.png)
+
+- Login with Invalid Username
+
+![login with invalid username](https://user-images.githubusercontent.com/94749506/160747251-54a84956-61f3-4148-80c5-61520ee69a89.png)
+
+- Login with Invalid Password
+
+![login with invalid password](https://user-images.githubusercontent.com/94749506/160747318-296ffe84-db1c-4009-8fcb-046c67e79e18.png)
+
+- Login with Invalid Username dan Password
+
+![Invalid username and Password](https://user-images.githubusercontent.com/94749506/160747375-2596fe87-df36-4a72-a1b5-bfe4c9d4d0e9.png)
+
+- Empty username and password
+
+![empty username and password](https://user-images.githubusercontent.com/94749506/160747145-f8748407-1f4b-4bc9-bbe5-60feaeabdeb5.png)
