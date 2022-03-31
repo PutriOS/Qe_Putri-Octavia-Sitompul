@@ -4,7 +4,7 @@
 
 ### Apa itu Performance Test?
 
-Performance test merupakan teknik non-functional testing untuk menentukan parameter sistem dalam hal responsive dan stabilitas di bawah berbagai beban (load kerja). Performance testing mengukur kualitas atribut dari sistem seperti stabilitas, ketahanan, dan penggunaan resources. Hasil pengujian biasanya berupa number of virtual users.
+- Performance test merupakan teknik non-functional testing untuk menentukan parameter sistem dalam hal responsive dan stabilitas di bawah berbagai beban (load kerja). Performance testing mengukur kualitas atribut dari sistem seperti stabilitas, ketahanan, dan penggunaan resources. Hasil pengujian biasanya berupa number of virtual users.
 
 ### Apa yang Diukur dari Performance Test?
 
@@ -16,7 +16,7 @@ Performance test merupakan teknik non-functional testing untuk menentukan parame
 
 ### Mengapa Performance Test Jarang Dilakukan?
 
-Pada umumnya performance testing cukup mahal untuk diaplikasikan dan dijalankan, namun dapat dijadikan tolak ukur apakah sistem tersebut dapat mengakomodasi traffic yang ada. Hal ini disebabkan karena pengujian memerlukan persiapan yang dimana beberapa kasus harus membuat environment terpisah dari production agar tidak tercampurnya data test dengan data production, Environment ini ada juga yang membuatnya di server cloud yang biayanya bisa lebih besar dari environment production.
+- Pada umumnya performance testing cukup mahal untuk diaplikasikan dan dijalankan, namun dapat dijadikan tolak ukur apakah sistem tersebut dapat mengakomodasi traffic yang ada. Hal ini disebabkan karena pengujian memerlukan persiapan yang dimana beberapa kasus harus membuat environment terpisah dari production agar tidak tercampurnya data test dengan data production, Environment ini ada juga yang membuatnya di server cloud yang biayanya bisa lebih besar dari environment production.
 
 ### Apa yang Perlu Diperhatikan dari Performance Test?
 
@@ -95,3 +95,14 @@ Throughput dan response data-nya.
 - Virtual Users : Simulasi dari users yang melakukan pengujian, dapat melakukan satu atau lebih requests dalam satu iterasi.
   
 - Response time : Lama waktu pengiriman request hingga menerima response.
+
+
+## TASK
+
+## Task 1
+
+- Volume test adalah salah satu non-functional test yang menguji ketahanan suatu sistem ketika diberi database yang banyak Dikenal juga dengan istilah flood test. Berbeda dengan load test yang menguji ketahanan secara umum, volume test berfokus pada sistem databasenya saja. Hasil dari load test digunakan untuk mengukur kepentingan bisnis saat transaksi yang kritis dengan memonitor dampak terhadap database, application server atau pendukung lainnya.
+
+## Task 2
+
+- Pada gambar merupakan sistem yang kurang stabil karena melewati waktu rata rata yang ditunjukkan dengan telah mencapai grafik maximum. Hal tersebut mungkin terjadi karena adanya suatu events yang menyebabkan banyak user sedang menggunakan aplikasi dan membuat respon menjadi lebih lama. Dari gambar dapat dilihat bahwa pemakaian aplikasi yang paling banyak pada pukul 12.54. semakin banyak user yang menggunakan semakin lama prosesnya.
