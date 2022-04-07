@@ -25,3 +25,14 @@
 - * = wildcard (semua hal)
 
 - **[start:end]** = operator irisan array dipinjam
+
+## TASK
+
+**Tugas**
+
+![Tugas](https://user-images.githubusercontent.com/94749506/162140698-2a8d31e9-c2a8-4b6d-bd21-ec0f984b60d5.PNG)
+
+**Exercise**
+
+![Exercise](https://user-images.githubusercontent.com/94749506/162140757-52ba3ea0-9b7f-4518-936c-6143ec25d2e2.PNG)
+
