@@ -30,7 +30,13 @@
 
 **Tugas**
 
-![Tugas](https://user-images.githubusercontent.com/94749506/162140698-2a8d31e9-c2a8-4b6d-bd21-ec0f984b60d5.PNG)
+![Products](https://user-images.githubusercontent.com/94749506/162278179-69effab6-530e-4549-9bfd-69eb6feea37a.PNG)
+
+![Foods](https://user-images.githubusercontent.com/94749506/162278189-21cf8bab-f20f-40dd-b2db-85f53aa8d4f9.PNG)
+
+![Contacts](https://user-images.githubusercontent.com/94749506/162278192-464120c1-df90-4495-857b-1b3116e6c145.PNG)
+
+![DB](https://user-images.githubusercontent.com/94749506/162278196-cece2440-83da-4f21-b633-9d814ddad9d9.PNG)
 
 **Exercise**
 
